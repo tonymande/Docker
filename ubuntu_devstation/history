@@ -1,0 +1,7 @@
+
+# Create a container containing needed software 
+docker create -v /software --name pbsag_software busybox /bin/true
+
+
+# Run Dev-Image
+docker run --rm -it -p 3389:3389 -p 5901:5901 --volumes-from pbsag_software pbsag:ubuntu_devimage
