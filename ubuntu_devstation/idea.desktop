@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=IntelliJ IDEA
+Comment=IntelliJ IDEA Entwicklungsumgebung starten
+Keywords=development;ide;java
+#TryExec=
+Exec=bash -c "/software/idea-IU-143.1821.5/bin/idea.sh"
+StartupNotify=true
+Terminal=false
+Type=Application
+Icon=/software/idea-IU-143.1821.5/bin/idea.png
